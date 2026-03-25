@@ -25,8 +25,8 @@ A high-performance **Python-based autocorrect and text-refinement engine**. This
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/ai-autocorrect.git](https://github.com/yourusername/ai-autocorrect.git)
-    cd ai-autocorrect
+    git clone https://github.com/silsrinjoy26-cmd/AutoCorrect-Tool.git
+    cd AutoCorrect-Tool
     ```
 
 2.  **Install required libraries:**
