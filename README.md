@@ -42,7 +42,7 @@ A high-performance **Python-based autocorrect and text-refinement engine**. This
 
 The engine uses a **Sequence-to-Sequence (Seq2Seq)** architecture. It treats "noisy" (erroneous) text as an input sequence $X$ and generates a "clean" output sequence $Y$ by maximizing the conditional probability:
 
-$$P(Y \mid X) = \prod_{t=1}^{T} P(y_t \mid y_{<t}, X)$$
+$P(Y \mid X) = \prod_{t=1}^{T} P(y_t \mid y_{<t}, X)$
 
 This ensures the correction is contextually relevant rather than just a dictionary match.
 
